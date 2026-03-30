@@ -4,7 +4,9 @@ $prenom = "Bessel";
 $email = "bessel.raissi@edu.isetcom.tn";
 $age = 20;
 $ville = "Tunis";
-$formation = "GTIC";
+$formation = "Sécurité";
+
+
 
 ?>
 <!DOCTYPE html>
