@@ -14,4 +14,10 @@ if (!empty($erreur)) {
     echo afficherSucces($nom, $prenom, $email);
 }
 }
+
+function nettoyer($data) {
+    return htmlspecialchars(trim($data)); }
+
+$nom = nettoyer($_POST["nom"]);
+
 ?>
