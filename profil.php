@@ -25,7 +25,9 @@ $formation = "Sécurité";
     <p><strong>Ville :</strong> <?php echo $ville; ?></p>
     <p><strong>Formation :</strong> <?php echo $formation; ?></p>
     <?php echo "<p>Bienvenue $prenom dans la formation $formation</p>"; ?>
+
+    <p>Date : <?= date("H:i:s") ?></p>
+
+    
 </body>
 </html>
-
-<p>Date : <?= date("H:i:s") ?></p>

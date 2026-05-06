@@ -2,7 +2,8 @@
 function afficherErreur($erreur) {
     if (!empty($erreur)) {
         return "<div style='color:red;'>$erreur</div>";
-}
+    }
+    return "";
 }
 function afficherSucces($nom, $prenom, $email) {
     return "<div style='color:green;'>
